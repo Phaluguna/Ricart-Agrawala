@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class MutEx implements Runnable {
+public class RicartAgrawala implements Runnable {
     public int nodeNo;// Node number of the process
     public int port; // port number from which this node listens to incoming messages
     public ServerSocket ss; // server socket object to accept messages
